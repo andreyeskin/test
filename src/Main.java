@@ -88,6 +88,13 @@ public class Main {
          * Zeichenkette, keine Ausgaben) von {@code ausgabe}.
          * @param n die Anzahl an Zeiteinheiten
          */
+
+
+        //Hello Daniela
+        // Ich habe wirklich ein paar Veränderungen gemacht
+
+
+
         private static void anzahl(int n) {
             if (n == 0) {
                 result++;
@@ -97,7 +104,9 @@ public class Main {
                     anzahl(n - 2);
                 }
             }
+
         }
+
 
         /**
          * Berechnet die {@code n}-te Fibonacci-Zahl
@@ -113,5 +122,7 @@ public class Main {
     }
     public static void main(String[] args) {
         System.out.println("Hello world!");
+        System.out.println ("Hi Daniela");
     }
+
 }
